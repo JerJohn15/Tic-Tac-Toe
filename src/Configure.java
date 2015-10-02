@@ -113,19 +113,25 @@ public String getSymbols(){
 
 	    	 printBlankLine();
 	    	 
-		 System.out.println("How-to-Move:");
+		 System.out.println("How-to-Move:\n");
 		 System.out.println("For each turn the current player");
 		 System.out.println("must enter a 0,1, or 2 on a row and column ");
 		 System.out.println("to place their symbol on the grid (X or O). ");
 	
 		 printBlankLine();
 		 
-		 System.out.println("When the Game Ends:");
+		 System.out.println("Determining a Winning Game:\n");
 		 System.out.println("The game ends when a player has three ");
 		 System.out.println("X's or O's in a row, column or diagonal (left or right)");
 		 System.out.println("A tie is when the grid is filled and no winning move exists.");
+		
+		 printBlankLine();
+		 
+		 System.out.println("After a winner is determined, they are prompted with entering "
+		 		+ "their name into a scoreboard which then gets displayed. ");
 		 
 		 printBlankLine();
+
 	}
 	
 	

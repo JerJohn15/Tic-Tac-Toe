@@ -21,7 +21,7 @@ public class Score {
 	
 	}
 	/*
-	 * Setsthe winner
+	 * Sets the winner
 	 * 
 	 */
 	public Score(String aname){
@@ -32,7 +32,7 @@ public class Score {
 	
 	
 	/*
-	 * set table 
+	 * sets table 
 	 */
 	
 	
